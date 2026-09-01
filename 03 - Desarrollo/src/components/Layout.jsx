@@ -16,6 +16,7 @@ export default function Layout({ children }) {
           <NavLink to="/" end className={CLASE}>Nueva solicitud</NavLink>
           <NavLink to="/consulta" className={CLASE}>Consultar ticket</NavLink>
           <NavLink to="/chat" className={CLASE}>Chat</NavLink>
+          <NavLink to="/mockup" className={CLASE}>Mockup</NavLink>
           <span className="mx-2 h-5 w-px bg-white/30" />
           <NavLink to="/admin" end className={CLASE}>Dashboard</NavLink>
           <NavLink to="/admin/tickets" className={CLASE}>Tickets</NavLink>
